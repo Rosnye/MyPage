@@ -1,8 +1,8 @@
 const Contact = () => {
     return(
-        <h1 class="bg-red-secondary">
+        <footer class="bg-red-secondary w-screen absolute bottom-0">
             Contacto
-        </h1>
+        </footer>
     );
 };
 
