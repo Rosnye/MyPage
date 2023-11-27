@@ -1,6 +1,6 @@
 const Skills = () => {
     return(
-        <h2 class="bg-violet-secondary rounded-2xl h-32">
+        <h2 class="m-2 p-2 bg-violet-secondary rounded-l h-32">
             Skills
         </h2>
     );

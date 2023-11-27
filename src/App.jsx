@@ -11,7 +11,7 @@ import Contact from './components/contact'
 function App() {
 
   return (
-    <container class="flex flex-col min-h-screen">
+    <container class="flex flex-col min-h-screen bg-gray-700">
       <NavBar/>
       <About/>
       <Skills/>

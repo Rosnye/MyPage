@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <h1 class="bg-red-primary">
-      Navegacion
+    <h1 class="bg-violet-primary">
+      <button class="m-2 bg-red-primary rounded-2xl border-black border-2 p-2 text-white">Contratame</button>
     </h1>
   );
 };
