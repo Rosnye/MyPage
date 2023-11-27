@@ -13,9 +13,13 @@ function App() {
   return (
     <container class="flex flex-col min-h-screen bg-gray-700">
       <NavBar/>
-      <About/>
-      <Skills/>
-      <Proyect/>
+      <container>
+        <container class="flex w-fit">
+          <About/>
+          <Skills/>
+        </container>
+        <Proyect/>
+      </container>
       <Contact/>
     </container>
   )
