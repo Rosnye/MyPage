@@ -25,11 +25,11 @@ export default {
     },
     extend: {
       colors: {
-        'violet-primary' : '#D55DF0',
-        'red-primary' : '#F05D71',
-        'rose-primary' : '#EF5EC8',
-        'violet-secondary' : '#A55DF0',
-        'red-secondary' : '#F0715D',
+        'primary' : '#260000',
+        'secondary' : '#000027',
+        'light' : '#FBF3F2',
+        'third' : '#EFBA34',
+        'four' : '#725919',
       },
     },
   },

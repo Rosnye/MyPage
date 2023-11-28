@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './nav.css'
+import {BookmarkIcon} from '@heroicons/react/24/solid'
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
 
   return (
-    <h1 class="bg-violet-primary">
-      <button class="m-2 bg-red-primary rounded-2xl border-black border-2 p-2 text-white">Contratame</button>
-    </h1>
+    <container class="bg-four">
+      <button class="h-12 m-4 text-light bg-black rounded-2xl p-2 w-36 flex items-center place-content-center">
+        <BookmarkIcon class="w-6 mr-2"/>
+        Contratame</button>
+    </container>
   );
 };
 

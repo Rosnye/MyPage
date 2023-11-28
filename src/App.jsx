@@ -11,10 +11,10 @@ import Contact from './components/contact'
 function App() {
 
   return (
-    <container class="flex flex-col min-h-screen bg-gray-700">
+    <container class="flex flex-col min-h-screen bg-third">
       <NavBar/>
       <container>
-        <container class="flex w-fit">
+        <container class="flex flex-col">
           <About/>
           <Skills/>
         </container>
