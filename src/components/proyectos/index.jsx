@@ -1,9 +1,9 @@
 const Proyect = () => {
     
     return(
-        <h2 class="bg-red-secondary m-2 p-2 rounded-lg min-h-full">
+        <container class="bg-secondary text-light m-2 p-2 rounded-lg">
             Proyectos
-        </h2>
+        </container>
     );
 };
 
